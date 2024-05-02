@@ -1,0 +1,104 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #252525;
+    color:#fff;
+}
+.bg-cor-l{
+    background-color: #0a0202;
+}
+.bg-cor-2{
+    background-color: #787ac0;
+}
+.cor-1{
+    color:aqua;
+}
+.cor-2{
+    color:#6f6969;
+}
+.cor-clara{
+    color:bisque;
+}
+.cor-escura{
+    color:#626262;
+}
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand:hover{
+    color: aqua;
+}
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+#navbar-itens{
+    justify-content: space-between;
+}
+@media(min-width:768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+    }
+}
+#navbar .navbar.nav{
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar li{
+    margin-left: 1em;
+}
+
+#navbar i{
+    font-size: 1.2rem;
+}
+
+#form-pesquisa{
+    width: 100%;
+    margin: 2em 0;
+}
+@media(min-width:768px){
+    #form-pesquisa{
+        width: 50%;
+        margin: 0;
+    }
+}
+#form-pesquisa{
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+#form-pesquisa input{
+    background-color: transparent;
+    border:none;
+    color: #fff;
+}
+
+
+#form-pesquisa input:focus{
+    box-shadow: none;
+}
+
+#form-pesquisa input ::placeholder{
+    color:#fff;
+}
+
+#container-navbar-inferior a{
+    justify-content: flex-end;
+}
+
+#container-navbar-inferior a{
+    font-weight: 600;
+    color:aqua;
+}
+
+.navbar-toggler{
+    font-size:1.5em;
+}
