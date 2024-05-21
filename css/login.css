@@ -1,0 +1,32 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #f8f8f8;
+}
+
+#form-container{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: .5px 10px 15px rgba(0,0,0, .2);
+    margin: 25px auto;
+    padding: 25px;
+}
+
+#form-container h2{
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+#form-container form{
+    padding-bottom: 50px;
+}
+
+/*reestilizando os inpurs */
+#form-container .form-contro{
+    border:none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+}
+
+#form-container .form-control.focus{
+     box-shadow: none;
+}
