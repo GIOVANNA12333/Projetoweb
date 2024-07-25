@@ -1,0 +1,178 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #000000;
+    color:#e3eaec;
+}
+
+.bg-cor-l{
+    background-color: #064e4b;
+}
+
+.bg-cor-2{
+    background-color: #787ac0;
+}
+
+.cor-1{
+    color:aqua;
+}
+.cor-2{
+    color:#6f6969;
+}
+.cor-clara{
+    color:bisque;
+}
+.cor-escura{
+    color:#626262;
+}
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand:hover{
+    color: aqua;
+}
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+#navbar-itens{
+    justify-content: space-between;
+}
+@media(min-width:768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+    }
+}
+#navbar .navbar.nav{
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar li{
+    margin-left: 1em;
+}
+
+#navbar i{
+    font-size: 1.2rem;
+}
+
+#form-pesquisa{
+    width: 100%;
+    margin: 2em 0;
+}
+@media(min-width:768px){
+    #form-pesquisa{
+        width: 50%;
+        margin: 0;
+    }
+}
+#form-pesquisa{
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+}
+#form-pesquisa input{
+    background-color: transparent;
+    border:none;
+    color: #fff;
+}
+
+
+#form-pesquisa input:focus{
+    box-shadow: none;
+}
+
+#form-pesquisa input ::placeholder{
+    color:#fff;
+}
+
+#container-navbar-inferior a{
+    justify-content: flex-end;
+}
+
+#container-navbar-inferior a{
+    font-weight: 600;
+    color:aqua;
+}
+
+.navbar-toggler{
+    font-size:1.5em;
+}
+
+#bannwrs-container{
+    padding: 0;
+}
+
+.carousel-caption{
+    bottom: 5cm;
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+    background-color: #1b5c8bdd;
+}
+
+.carousel-caption h3{
+    font-size: 1.8em;
+}
+
+@media(min-width: 768px){
+    #slider .carousel-item,
+    #slider img{
+        height: 600px;
+    }
+}
+/* CSS DOS MINI BANNERS*/
+#mini-banners-container{
+    margin-top: 3em;
+    z-index:10;
+}
+
+#mini-banners-container .col-12{
+    z-index: 1;
+    height: 300px;
+    padding: 1,5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #mini-banners-container .col-12{
+        max-width: 30%;
+    }
+}
+
+#mini-banners-container .col-12 h2{
+    text-transform: uppercase;
+    max-width: 50%;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+#mini-banners-container .col-2 img{
+    height: 200px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#mini-banners-container .col-12 a{
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+#mini-banners-container .col-12 a:houver{
+    color:#787ac0;
+}
+
